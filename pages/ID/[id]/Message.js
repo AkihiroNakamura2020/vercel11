@@ -96,7 +96,7 @@ export const getStaticProps = async (context) => {
                   pile.title = data.title?data.title:null
                   pile.details = data.details?data.details:null
                   pile.userid = data.userid 
-                  pile.username = data.username
+                  pile.username = data.username?data.username:null
                   pile.category = data.category?data.category:null
                   pile.tweetId = data.tweetId ?data.tweetId:null
                   pile.debankid = data.debankid ?data.debankid:null
