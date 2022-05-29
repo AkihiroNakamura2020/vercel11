@@ -227,7 +227,7 @@ titlebackshape:{
                   const pile={}
                   //条件式 ? trueの処理 : falseの処理
                   pile.userid = data.userid 
-                  pile.username = data.username
+                  pile.username = data.username?data.details:null
                   pile.mail = data.mail?data.mail:null
 
             
